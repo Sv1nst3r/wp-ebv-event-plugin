@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-ebv-blocks {
+	border: 1px dotted #f00;
+}
+
+
+.actu_item {
+  padding: 1.25rem;
+  background-color: var(--white);
+  border-radius: 19px;
+	border:black 1px solid;
+	margin-bottom: 1.5rem;
+}
+
+@media (min-width: 540px) {
+  .actu__item {
+    padding: 2.5rem;
+  }
+}
+
+.actu-more-wrapper {
+  display: none;
+}
+.actu__item h4.actu__date {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+  color: var(--salmon);
+}
+
+ .actu__item h4.actu__author {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+  color: var(--darkGrey);
+}
+
+ .actu__item h2.actu__title {
+  margin-bottom: 0.25rem;
+}
+
+.actu__item .btn-wrapper {
+  margin-top: 1.5rem;
+}
